@@ -13,6 +13,21 @@ public class Lesson2 {
         System.out.println("Double          8 bytes     Fractional number up to 15 digits ex. 3.141592653589793\n");
 
         System.out.println("Char            2 bytes     Single character/letter/ASCII value ex. 'l'");
-        System.out.println("String          varies      A sequence of characters ex. \"Never gonna give you up!\"");
+        System.out.println("String          varies      A sequence of characters ex. \"Never gonna give you up!\"\n");
+
+        int x = 69;
+        long y = 1234567890123456789L;
+        double z = 3.14;
+        boolean a = true;
+        char b = 'F';
+        String name = "Takkapi";
+
+        System.out.println("My number is " + x);
+        System.out.println("My long number is " + y);
+        System.out.println("My double number is " + z);
+        System.out.println("Learning Java: " + a);
+        System.out.println("Press " + b + " to pay respect");
+        System.out.println(name);
+
     }
 }
